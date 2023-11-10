@@ -8865,9 +8865,6 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <part name="U$14" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="U$15" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$16" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
-<part name="U$17" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
-<part name="U$18" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="220nF">
@@ -8902,6 +8899,8 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <part name="U$30" library="NC_MARKER" deviceset="NC_MARKER" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8918,32 +8917,32 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <attribute name="NAME" x="77.47" y="76.2" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="69.85" y="43.18" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="5.08" y="93.98" smashed="yes" grouprefs="OFFSET_GENERATOR">
-<attribute name="NAME" x="1.27" y="95.4786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="1.27" y="90.678" size="1.778" layer="96"/>
-<attribute name="PARTNO" x="5.08" y="93.98" size="1.778" layer="96" display="off"/>
+<instance part="R1" gate="G$1" x="-2.54" y="96.52" smashed="yes" grouprefs="OFFSET_GENERATOR">
+<attribute name="NAME" x="-6.35" y="98.0186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-6.35" y="93.218" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="-2.54" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R2" gate="G$1" x="17.78" y="83.82" smashed="yes" rot="R90" grouprefs="OFFSET_GENERATOR">
-<attribute name="NAME" x="16.2814" y="80.01" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="21.082" y="80.01" size="1.778" layer="96" rot="R90"/>
-<attribute name="PARTNO" x="17.78" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R2" gate="G$1" x="10.16" y="86.36" smashed="yes" rot="R90" grouprefs="OFFSET_GENERATOR">
+<attribute name="NAME" x="8.6614" y="82.55" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="13.462" y="82.55" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="10.16" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="GND1" gate="1" x="17.78" y="76.2" smashed="yes" grouprefs="OFFSET_GENERATOR">
-<attribute name="VALUE" x="15.24" y="73.66" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="10.16" y="78.74" smashed="yes" grouprefs="OFFSET_GENERATOR">
+<attribute name="VALUE" x="7.62" y="76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="-7.62" y="101.6" smashed="yes" grouprefs="OFFSET_GENERATOR">
-<attribute name="VALUE" x="-5.08" y="104.14" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V1" gate="G$1" x="-15.24" y="104.14" smashed="yes" grouprefs="OFFSET_GENERATOR">
+<attribute name="VALUE" x="-12.7" y="106.68" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED1" gate="G$1" x="-7.62" y="63.5" smashed="yes" rot="R90" grouprefs="OFFSET_GENERATOR">
-<attribute name="NAME" x="-16.51" y="76.2" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-13.97" y="76.2" size="1.778" layer="96" rot="R90"/>
+<instance part="LED1" gate="G$1" x="-15.24" y="66.04" smashed="yes" rot="R90" grouprefs="OFFSET_GENERATOR">
+<attribute name="NAME" x="-24.13" y="78.74" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-21.59" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J1" gate="G$1" x="-22.86" y="33.02" smashed="yes">
 <attribute name="NAME" x="-13.97" y="38.1" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-21.59" y="15.24" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GND2" gate="1" x="-7.62" y="60.96" smashed="yes" grouprefs="OFFSET_GENERATOR">
-<attribute name="VALUE" x="-10.16" y="58.42" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="-15.24" y="63.5" smashed="yes" grouprefs="OFFSET_GENERATOR">
+<attribute name="VALUE" x="-17.78" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="15.24" y="33.02" smashed="yes">
 <attribute name="NAME" x="11.43" y="34.5186" size="1.778" layer="95"/>
@@ -8993,10 +8992,10 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <instance part="M1" gate="-CN5" x="162.56" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="154.94" y="102.616" size="1.778" layer="95"/>
 </instance>
-<instance part="R9" gate="G$1" x="-7.62" y="83.82" smashed="yes" rot="R270" grouprefs="OFFSET_GENERATOR">
-<attribute name="NAME" x="-9.1186" y="80.01" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-4.318" y="80.01" size="1.778" layer="96" rot="R90"/>
-<attribute name="PARTNO" x="-7.62" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R9" gate="G$1" x="-15.24" y="86.36" smashed="yes" rot="R270" grouprefs="OFFSET_GENERATOR">
+<attribute name="NAME" x="-16.7386" y="82.55" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-11.938" y="82.55" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="-15.24" y="86.36" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U$1" gate="G$1" x="132.08" y="60.96" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="132.08" y="58.42" smashed="yes"/>
@@ -9029,9 +9028,6 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <instance part="GND6" gate="1" x="193.04" y="76.2" smashed="yes">
 <attribute name="VALUE" x="190.5" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="U$16" gate="G$1" x="55.88" y="63.5" smashed="yes"/>
-<instance part="U$17" gate="G$1" x="55.88" y="60.96" smashed="yes"/>
-<instance part="U$18" gate="G$1" x="55.88" y="53.34" smashed="yes"/>
 <instance part="+3V3" gate="G$1" x="50.8" y="111.76" smashed="yes">
 <attribute name="VALUE" x="53.34" y="114.3" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -9069,6 +9065,12 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 </instance>
 <instance part="GND10" gate="1" x="106.68" y="78.74" smashed="yes" rot="R180">
 <attribute name="VALUE" x="109.22" y="81.28" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND11" gate="1" x="43.18" y="63.5" smashed="yes" rot="R270">
+<attribute name="VALUE" x="40.64" y="66.04" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND12" gate="1" x="43.18" y="53.34" smashed="yes" rot="R270">
+<attribute name="VALUE" x="40.64" y="55.88" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -9117,12 +9119,12 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <net name="+1V" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
-<label x="25.4" y="93.98" size="2.1844" layer="95" font="vector" xref="yes" grouprefs="OFFSET_GENERATOR"/>
+<wire x1="2.54" y1="96.52" x2="10.16" y2="96.52" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
+<label x="17.78" y="96.52" size="2.1844" layer="95" font="vector" xref="yes" grouprefs="OFFSET_GENERATOR"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="93.98" x2="25.4" y2="93.98" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
-<wire x1="17.78" y1="88.9" x2="17.78" y2="93.98" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
-<junction x="17.78" y="93.98" grouprefs="OFFSET_GENERATOR"/>
+<wire x1="10.16" y1="96.52" x2="17.78" y2="96.52" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
+<wire x1="10.16" y1="91.44" x2="10.16" y2="96.52" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
+<junction x="10.16" y="96.52" grouprefs="OFFSET_GENERATOR"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="+IN_A"/>
@@ -9209,6 +9211,21 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <wire x1="106.68" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="73.66" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
 <junction x="106.68" y="73.66"/>
+</segment>
+<segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="AIN0N"/>
+<wire x1="45.72" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="AIN1N"/>
+<wire x1="50.8" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="60.96" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
+<junction x="50.8" y="63.5"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="AIN2N"/>
+<wire x1="45.72" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="G2-" class="0">
@@ -9352,12 +9369,12 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="-7.62" y1="99.06" x2="-7.62" y2="93.98" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
+<wire x1="-15.24" y1="101.6" x2="-15.24" y2="96.52" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="93.98" x2="0" y2="93.98" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
+<wire x1="-15.24" y1="96.52" x2="-7.62" y2="96.52" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="93.98" x2="-7.62" y2="88.9" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
-<junction x="-7.62" y="93.98" grouprefs="OFFSET_GENERATOR"/>
+<wire x1="-15.24" y1="96.52" x2="-15.24" y2="91.44" width="0.1524" layer="91" grouprefs="OFFSET_GENERATOR"/>
+<junction x="-15.24" y="96.52" grouprefs="OFFSET_GENERATOR"/>
 </segment>
 <segment>
 <pinref part="M1" gate="-CN6" pin="+3V3"/>
@@ -9461,24 +9478,6 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <segment>
 <pinref part="M1" gate="-CN5" pin="AVDD"/>
 <pinref part="U$15" gate="G$1" pin="P$1"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="AIN0N"/>
-<pinref part="U$16" gate="G$1" pin="P$1"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="AIN1N"/>
-<pinref part="U$17" gate="G$1" pin="P$1"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="AIN2N"/>
-<pinref part="U$18" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$27" class="0">
