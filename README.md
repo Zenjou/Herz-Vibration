@@ -1,5 +1,6 @@
 # Herz Vibration
 Project for Electronic Equipment Design Course ( ELO301 Universidad Federíco Santa María)
+
 Group 6 
  - Victor Muñoz Salinas
  - Josefa Gomez
@@ -11,19 +12,29 @@ This project focuses on designing a PCB for real-time seismocardiograms utilizin
 
 # Features:
 Custom-designed PCB optimized for seamless integration with geophones.
+
 Eagle PCB schematics for a thorough understanding and easy modification.
+
 Inclusion of all essential manufacturing files, including Gerber files and drill files, for PCB fabrication.
+
 Utilizes the STM32 NUCLEO-L452 development board for enhanced functionality.
 
 # Technologies Used:
 Eagle PCB for schematic design.
+
 Geophonic sensors for vibration capture (3 Geophones for each axis).
+
 STM32 NUCLEO-L452 development board.
-# SerialPlot by Hasan Yavuz Özderya for graphical visualization.
+
+**SerialPlot by Hasan Yavuz Özderya for graphical visualization.**
+
 ADS131M03 3-channel, 24-bit, 64 kSPS simultaneous sampling delta-sigma ADC.
 
-#Files:
+# Files:
 Eagle PCB Schematics
+
 Manufacturing Files (Gerber, Drill Files, etc.)
+
 BOM File
+
 Videos
