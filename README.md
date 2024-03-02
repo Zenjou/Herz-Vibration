@@ -1,5 +1,5 @@
 # Herz Vibration
-Project for Electronic Equipment Design Course ( ELO301 Universidad Federíco Santa María)
+Project for Electronic Equipment Design Course ( ELO301 Federico Santa María Technical University)
 
 Group 6 
  - Victor Muñoz Salinas
